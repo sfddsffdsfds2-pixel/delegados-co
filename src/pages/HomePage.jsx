@@ -96,7 +96,7 @@ export default function HomePage() {
             }}
           />
 
-          {/* Texto 1*/}
+          {/* Texto 11*/}
           <Box
             component={motion.div}
             initial={{ opacity: 0, x: 40 }}
