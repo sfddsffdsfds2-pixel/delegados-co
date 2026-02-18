@@ -18,20 +18,11 @@ const Hero = styled(Box)(() => ({
 /* ================= SLIDES ================= */
 const slides = [
   {
-    image: "/hospital.webp",
+    image: "/juan1.jpg",
     title: "Juntos por el progreso",
-    description: "Hospitales modernos y accesibles para todos.",
+   
   },
-  {
-    image: "/alcaldiaa.webp",
-    title: "Edificio Municipal",
-    description: "Servicios eficientes para la población.",
-  },
-  {
-    image: "/universidadd.webp",
-    title: "Universidad Autónoma",
-    description: "Educación para la juventud.",
-  },
+  
 ];
 
 export default function HomePage() {
@@ -84,7 +75,7 @@ export default function HomePage() {
           {/* Imagen grande profesional */}
           <Box
             component={motion.img}
-            src="/juan.png"
+            src="/juanfloresme.png"
             alt="Candidato"
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
