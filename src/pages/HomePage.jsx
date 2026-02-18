@@ -138,7 +138,7 @@ export default function HomePage() {
                 py: 1.8,
                 fontWeight: "bold",
                 borderRadius: 3,
-                "&:hover": { background: "#ff6a00" },
+                "&:hover": { background: "#ff6a00", color: '#FFFFFF',  background: 'linear-gradient(135deg, #0f172a, #1e40af 45%, #991b1b)' },
               }}
             >
               Únete al cambio

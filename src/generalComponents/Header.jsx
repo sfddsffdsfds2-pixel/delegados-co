@@ -127,7 +127,7 @@ export default function Header() {
               color: '#FFFFFF',
               border: '2px solid #FFFFFF',
               '&:hover': {
-                color: '#FF7E5F',
+                color: '#ff5f5f',
                 border: '2px solid #FF7E5F',
                 backgroundColor: 'transparent',
               },
@@ -137,7 +137,7 @@ export default function Header() {
               color: '#FFFFFF',
               '&:hover': {
                 backgroundColor: '#FFFFFF',
-                color: '#FF7E5F',
+                color: '#f30e0e',
               },
             };
         }

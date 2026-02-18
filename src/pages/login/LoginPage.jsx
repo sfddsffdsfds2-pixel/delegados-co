@@ -51,13 +51,14 @@ const SignInContainer = styled(Stack)(({ theme }) => ({
   [theme.breakpoints.up('sm')]: {
     padding: theme.spacing(4),
   },
-  '&::before': {
+  '&::before': { 
     content: '""',
     display: 'block',
     position: 'absolute',
     zIndex: -1,
     inset: 0,
     background: 'linear-gradient(135deg, #FFA347, #FF7E5F)',
+     background: 'linear-gradient(135deg, #0f172a, #1e40af 45%, #991b1b)'
   },
 }));
 
