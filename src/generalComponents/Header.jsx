@@ -248,7 +248,7 @@ export default function Header() {
               }}>
                 <Box
                   component="img"
-                  src="/logo.webp"
+                  src="libree.png"
                   alt="Logo partido"
                   sx={{
                     height: {
